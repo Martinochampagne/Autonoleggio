@@ -41,6 +41,4 @@ public class Veicolo {
     public String toString(){
         return "codice: " + codice + " targa: " + targa + " marca: " + marca + " posti: " + posti;
     }
-    
-    
 }
