@@ -18,5 +18,29 @@ public class Veicolo {
         posti=0;
     }
 
+    public Veicolo(Veicolo that){
+        this.targa=that.targa;
+        this.codice=that.codice;
+        this.marca=that.marca;
+        this.posti=that.posti;
+    }
+
+    public int getCodice(){
+         return codice;
+    }
+    public int getTarga(){
+         return targa;
+    }
+    public String getMarca(){
+         return marca;
+    }
+    public int getPosti(){
+         return posti;
+    }
+
+    public String toString(){
+        return "codice: " + codice + " targa: " + targa + " marca: " + marca + " posti: " + posti;
+    }
+    
     
 }
