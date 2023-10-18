@@ -1,4 +1,4 @@
-import org.omg.CORBA.SystemException;
+
 
 public class Main
 {
@@ -25,18 +25,19 @@ public class Main
 	    System.out.println("------------------------------");
 		System.out.println(l.toString());
 
-		try{
-			int result= 10/0;
-		}
+	// 	try{
+	// 		int result= 10/0;
+	// 	}
 
-		catch(ArithmeticException b){
-			System.out.println("Errore: divisione per zero non consentita");
-		}
+	// 	catch(ArithmeticException b){
+	// 		System.out.println("Errore: divisione per zero non consentita");
+	// 	}
 
-		finally{
-			System.out.println("Operazione completata");
-		}
+	// 	finally{
+	// 		System.out.println("Operazione completata");
+	// 	}
 		
-	}
+	// }
 
+	}
 }

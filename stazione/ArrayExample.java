@@ -2,13 +2,13 @@ public class ArrayExample {
 
   public static void main(String[] args) { 
 
-        // Chiamata al metodo e ricezione dell'array restituito 
+        
 
         int[] risultato = creaArray(1); 
 
          
 
-        // Stampare gli elementi dell'array restituito 
+       
         System.out.println("------------------------------");
 	    System.out.println("             N.VAGONI           ");
 	    System.out.println("------------------------------");
@@ -16,13 +16,13 @@ public class ArrayExample {
 
         for (int numero : risultato) { 
 
-            System.out.print(numero + " vagoni " ); // Output: 1 2 3 4 5 
+            System.out.print(numero + " vagoni " );  
 
         } 
 
     } 
 
-    // Metodo che restituisce un array di interi 
+     
 
     public static int[] creaArray(int lunghezza) { 
 
