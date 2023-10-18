@@ -1,3 +1,5 @@
+import org.omg.CORBA.SystemException;
+
 public class Main
 {
 	public static void main(String[] args) {
@@ -19,9 +21,22 @@ public class Main
 
 		Biglietti l= new Biglietti (9.65, "1h 30m", "2a classe");
 		System.out.println("------------------------------");
-	    System.out.println("             BIGLIETTI           ");
+	    System.out.println("          BIGLIETTI           ");
 	    System.out.println("------------------------------");
 		System.out.println(l.toString());
+
+		try{
+			int result= 10/0;
+		}
+
+		catch(ArithmeticException b){
+			System.out.println("Errore: divisione per zero non consentita");
+		}
+
+		finally{
+			System.out.println("Operazione completata");
+		}
 		
 	}
+
 }
