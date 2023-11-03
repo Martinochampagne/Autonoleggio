@@ -15,7 +15,7 @@ public Personaggio(){
     scelta="";
 }
 
-public Personaggio(that personaggio){
+public Personaggio (Personaggio that){
     this.esperienza=that.esperienza;
     this.fazione=that.fazione;
     this.scelta=that.scelta;
@@ -43,7 +43,7 @@ public void setScelta(String scelta){
 }
 
 public String toString(){
- return "Benvenuto alla battaglia della Terra di Mezzo, il tuo personaggio ha un esperienza"+ this.esperienza + " da 1 a 10 in base al combattimento. Il gioco è composto da due " + this.fazione + "devi fare una " +this.scelta ;
+ return "Benvenuto alla battaglia della Terra di Mezzo, il tuo personaggio \nha un esperienza  da ("+ this.esperienza + " a 10) in base al combattimento. \nIl gioco è composto da due " + this.fazione + "devi fare una " +this.scelta ;
 }
 }
 

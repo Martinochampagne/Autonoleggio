@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
-        "stazione"
+        "stazione",
+        "LaBattagliaDellaTerraDiMezzo"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
